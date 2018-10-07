@@ -1,25 +1,36 @@
-<html>
-    <head>
-        <title>Example of HTML/CSS web</title>
-         <link rel="stylesheet" type="text/css" href="css/main.css">
-    </head>
-    <body class="container">
+<head>
+<title>This is a title</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="container">
         <header class="header">
-            <h1 id="title-bar">Minimalist</h1>
-            <ul id="link-bar">
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 2</a></li>
-                <li><a href="">Link 3</a></li>
+            <p id="header-text"></p>
+            <ul id="header-link">
+                <li><a href="">Home</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
             </ul>
         </header>
-        <nav class="nav">
-            This is nav
-        </nav>
         <main class="main">
-            <p>Lorem ipsum bla bla bla</p>
+            <div id="main-nav">
+                <ul id="main-nav-ul">
+                    <li><a href="">Link 1</a></li>
+                    <li><a href="">Link 2</a></li>
+                    <li><a href="">Link 3</a></li>
+                    <li><a href="">Link 4</a></li>
+                </ul>
+            </div>
+            <div id="main-area">
+                <p>Bla bla bla</p>
+            </div>
         </main>
         <footer class="footer">
-            This is footer
         </footer>
-    </body>
-</html>
+    </div>
+    <script>
+        write_header_date();     
+    </script>
+</body>
